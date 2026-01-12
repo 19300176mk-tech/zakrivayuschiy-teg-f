@@ -1,1 +1,1 @@
-https://github.com/19300176mk-tech/zakrivayuschiy-teg-f
+https://github.com/19300176mk-tech/zakrivayuschiy-teg-f  https://19300176mk-tech.github.io/zakrivayuschiy-teg-f/
