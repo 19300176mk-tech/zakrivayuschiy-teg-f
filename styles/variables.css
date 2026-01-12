@@ -1,1 +1,60 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --main-font: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --accent-font: "Press Start 2P", ui-monospace, monospace;
+  --text-color: #000000;
+  --surface-color: #ffffff;
+  --border-color: #000000;
+  --contour-color: #000000;
+  --animation-fill-color: #ff0000;
+  --text-weight: 410;
+  --title-weight: 715;
+  --bg-top: #e7e7e7;
+  --bg-bottom: #1a1a1a;
+  --grid-color: #d3d3d3;
+  --page-bg:
+    repeating-linear-gradient(to right, var(--grid-color) 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, var(--grid-color) 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, var(--bg-top) 0.01%, var(--bg-bottom) 100%);
+  --container-width: clamp(375px, 260.56px + 30.52vw, 700px);
+  --container-side-padding: 0px;
+  --header-margin-top: 100px;
+  --header-height: clamp(327px, 314.3px + 3.85svw, 368px);
+  --header-gap: 20px;
+  --header-content-shift: 0px;
+  --header-inner-width: clamp(343px, 303.6px + 10.52vw, 455px);
+  --logo-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --subtitle-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --logo-line-height: 1;
+  --subtitle-line-height: 1;
+  --header-to-content-gap: clamp(98px, 100.7px - 0.19vw, 100px);
+  --content-pad-bottom: 100px;
+  --cards-gap: 48px;
+  --card-border: 2px;
+  --card-title-pad-y: 4px;
+  --card-title-pad-x: 10px;
+  --card-title-line-height: 21px;
+  --card-body-pad: 25px;
+  --card-body-gap: 25px;
+  --label-size: 14px;
+  --label-inset-top: 23px;
+  --label-inset-right: 25px;
+  --label-stroke: #ffffff;
+  --actions-gap: 9px;
+  --icon-btn-size: 39px;
+  --btn-border: 2px;
+  --btn-pad-y: 9px;
+  --btn-pad-x: 17px;
+  --btn-hover-fill: #000000;
+  --save-btn-width: clamp(306px, 292.8px + 3.62svw, 335px);
+  --save-btn-height: clamp(55px, 94.2px - 2.72svw, 84px);
+  --save-btn-gap: 8px;
+  --save-btn-pad-y: 15px;
+  --save-btn-pad-x: 20px;
+  --save-text-size: 14px;
+  --save-text-line-height: 0.9;
+  --floppy-size: clamp(21px, 30.46px - 0.66svw, 28px);
+  --floppy-dialog-size: 39px;
+  --dialog-max: clamp(341px, 336.9px + 1.13svw, 353px);
+}
