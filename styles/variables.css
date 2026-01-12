@@ -19,7 +19,7 @@
     linear-gradient(to bottom, var(--bg-top) 0.01%, var(--bg-bottom) 100%);
   --container-width: clamp(375px, 260.56px + 30.52vw, 700px);
   --container-side-padding: 0px;
-  --header-margin-top: 100px;
+  --header-margin-top: 98px;
   --header-height: clamp(327px, 314.3px + 3.85svw, 368px);
   --header-gap: 20px;
   --header-content-shift: 0px;
