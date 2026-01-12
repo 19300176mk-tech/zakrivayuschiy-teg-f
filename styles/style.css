@@ -394,12 +394,7 @@
   inline-size: 100%;
   block-size: 38px;
   padding-block: 9px 17px;
-  place-items: center;
   margin-inline: auto;
-}
-
-.header__logo {
-  transform-origin: center;
 }
 
 @media (width <= 375px) {
@@ -411,10 +406,6 @@
   .header__inner {
     inline-size: 100%;
     max-inline-size: 343px;
-  }
-
-  .header__logo {
-    font-size: calc(3.0625rem * (100vw / 375));
   }
 
   .header__logo,
