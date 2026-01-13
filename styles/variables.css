@@ -20,9 +20,7 @@
   --container-width: clamp(375px, 260.56px + 30.52vw, 700px);
   --container-side-padding: 0px;
   --header-margin-top: 98px;
-  --header-height: clamp(327px, 314.3px + 3.85svw, 368px);
   --header-gap: 20px;
-  --header-content-shift: 0px;
   --header-inner-width: clamp(343px, 303.6px + 10.52vw, 455px);
   --logo-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   --subtitle-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
@@ -57,4 +55,5 @@
   --floppy-size: clamp(21px, 30.46px - 0.66svw, 28px);
   --floppy-dialog-size: 39px;
   --dialog-max: clamp(341px, 336.9px + 1.13svw, 353px);
+  --button-text-color: #fff;
 }

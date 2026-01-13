@@ -66,13 +66,6 @@
   transition: fill 0.3s linear 0.06s;
 }
 
-.card__icon-button:hover .like-icon.is-liked .core,
-.card__icon-button:hover .like-icon.is-liked .main-body,
-.card__icon-button:active .like-icon.is-liked .core,
-.card__icon-button:active .like-icon.is-liked .main-body {
-  fill: var(--animation-fill-color);
-}
-
 @keyframes like-scale {
   0% {
     transform: scale(1);
@@ -83,6 +76,10 @@
   100% {
     transform: scale(1);
   }
+}
+
+.like-icon .heart {
+  transform-origin: 50% 50%;
 }
 
 .like-icon.is-liked .heart {
